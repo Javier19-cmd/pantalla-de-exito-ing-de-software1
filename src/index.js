@@ -1,12 +1,14 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from 'react';                       //Interfaz web.
+import ReactDOM from 'react-dom';                //Lenguaje web.
+import './index.css';                            //Importando el css del index. Está en la misma carpeta del index. Estilos de css.
+import App from './App';                         //Tiene extensión js. Se está importando una App de la carpeta.
+import reportWebVitals from './reportWebVitals'; //Sirve para simular datos de manera local. Si se va el internet, react se encarga de guardar datos de manera local en la memoria de la compu.
+                                                 //Hace que la app funcione aún si no hay internet.
 
-ReactDOM.render(
+//Gracias a la app web, se renderiza la página web.
+ReactDOM.render(//Ayuda a pintar la interfaz en la pantalla. La renderiza.
   <React.StrictMode>
-    <App />
+    <App />    
   </React.StrictMode>,
   document.getElementById('root')
 );
