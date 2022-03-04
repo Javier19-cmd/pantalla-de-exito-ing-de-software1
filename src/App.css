@@ -2,6 +2,8 @@ body{
 
   position: absolute;
   background: -webkit-gradient(linear, left top, left bottom, from(#E68804), to(#D14A3B)) fixed ;
+  width: 786px;  /*Ancho del body*/
+  height: 866px; /*Alto del body*/
 
 }
 
@@ -14,7 +16,7 @@ body{
 /*Color del título*/
 h1{
   text-align: center;
-  color: black;
+  color: white;
   position: fixed;
   top: 50%;
   left: 50%;

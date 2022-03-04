@@ -4,8 +4,6 @@ Link del gradiente usado: https://uigradients.com/#Virgin
 body {
 
   position: absolute;
-  width: 786px;  /*Ancho del body*/
-  height: 866px; /*Alto del body*/
   /*background: linear-gradient(180deg, #E68804 0%, #D14A3B 0%);*/ /*Color de la página con gradientes.*/
   /*top: 350px;   /*Posición de arriba hacia abajo*/
   /*left: 720px;  /*Posición de izquierda a derecha*/
