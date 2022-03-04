@@ -1,9 +1,24 @@
-.App {
-  text-align: center;
+body{
+
+  position: absolute;
+  background: -webkit-gradient(linear, left top, left bottom, from(#E68804), to(#D14A3B)) fixed ;
+
 }
+
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+/*Color del título*/
+h1{
+  text-align: center;
+  color: black;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 @media (prefers-reduced-motion: no-preference) {

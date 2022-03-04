@@ -8,7 +8,7 @@ import reportWebVitals from './reportWebVitals'; //Sirve para simular datos de m
 //Gracias a la app web, se renderiza la página web.
 ReactDOM.render(//Ayuda a pintar la interfaz en la pantalla. La renderiza.
   <React.StrictMode>
-    <App />    
+    <App />
   </React.StrictMode>,
   document.getElementById('root')
 );
